@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+b*-my28$_yendf_b(=(jp+^38&22-r2)*8a*1a&!wq64bv)qv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-gbroder24-djangoproject-ws9wg782xeo.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-gbroder24-djangoproject-4ma6zd51bxe.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello_world',
+    'about',
 ]
 
 MIDDLEWARE = [
